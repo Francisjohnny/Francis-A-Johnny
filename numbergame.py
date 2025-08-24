@@ -1,5 +1,8 @@
 from random import randint
 
+EASY_LEVEL_TURNS = 10
+HARD_LEVEL_TURNS = 5
+
 # Function to check users' guess against actual answer
 def check_answer(user_guess, actual_answer):
     if user_guess > actual_answer:
@@ -12,7 +15,11 @@ def check_answer(user_guess, actual_answer):
 
 # Function to set difficulty
 def set_difficulty():
-    input("Choose a difficulty. Type 'Easy' or 'Hard': ")
+    level = input("Choose a difficulty. Type 'easy' or 'hard': ")
+    if level == "easy":
+        turns = EASY_LEVEL_TURNS
+    else:
+        turns = HARD_LEVEL_TURNS
 
 
 
