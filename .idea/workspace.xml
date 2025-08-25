@@ -168,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756080351863</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Local v Global Scope 25062025">
+      <option name="closed" value="true" />
+      <created>1756081352923</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1756081352923</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -28,13 +28,17 @@ def set_difficulty():
 print("Welcome to the Number Guessing Game!")
 print("I'm thinking of a number between 1 and 100.")
 answer = randint(1, 100)
+print(f"Pssst, the correct answer is {answer}")
 
 
-
-# Let the user guess a number
-guess = int(input("Make a guess: "))
 turns = set_difficulty()
 print(f"You have {turns} attempts remaining to guess the number.")
+
+while guess != answer:
+    # Let the user guess a number
+    guess = int(input("Make a guess: "))
+
+check_answer(guess, answer)
 
 
 
