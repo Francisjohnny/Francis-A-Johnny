@@ -33,6 +33,8 @@ answer = randint(1, 100)
 
 # Let the user guess a number
 guess = int(input("Make a guess: "))
+turns = set_difficulty()
+print(f"You have {turns} attempts remaining to guess the number.")
 
 
 
