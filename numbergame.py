@@ -17,6 +17,7 @@ def check_answer(user_guess, actual_answer):
 def set_difficulty():
     level = input("Choose a difficulty. Type 'easy' or 'hard': ")
     if level == "easy":
+        global turns
         turns = EASY_LEVEL_TURNS
     else:
         turns = HARD_LEVEL_TURNS
